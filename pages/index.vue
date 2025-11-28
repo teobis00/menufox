@@ -7,7 +7,7 @@ body, html {
     box-sizing: border-box;
     height: 100vh;
     overflow: hidden;
-    font-family: 'League Spartan', sans-serif;
+    font-family: "Urbanist", sans-serif;
   }
   .container-menu-fox{
     width: 100vw;
@@ -62,13 +62,13 @@ body, html {
       padding: 20px 20px;
       padding-top: 10px;
       span{
-        font-family: 'League Spartan', sans-serif;
+        font-family: "Urbanist", sans-serif;
         color: white;
         font-size: 20px;
         font-weight: 400;
       }
       button{
-        font-family: 'League Spartan', sans-serif;
+        font-family: "Urbanist", sans-serif;
         border-radius: 8px;
         outline: none;
         border: 3px solid #F78C01;
@@ -94,7 +94,7 @@ body, html {
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 180px);
-    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .7) 15%, rgba(0, 0, 0, .7) 85%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .8) 15%, rgba(0, 0, 0, .8) 85%, rgba(0, 0, 0, 1) 100%);
     scroll-behavior: smooth;
     padding-bottom: 120px;
     .container-cocktail-item{
@@ -103,14 +103,10 @@ body, html {
       h2{
         font-size: 24px;
         color: #FFA741;
-        font-family: "League Spartan", sans-serif;
+        font-family: "Urbanist", sans-serif;
         font-weight: 300;
       }
-      h3{
-        font-family: "League Spartan", sans-serif;
-        font-size: 14px;
-        color: red;
-      }
+     
       p{
         font-family: "Roboto", sans-serif;
         color: white;
@@ -216,7 +212,7 @@ export default {
                           "Hurricane":"Ron Appleton, Ron Bacardi, Naranja, Maracuyá"
                       },
                       {
-                          "Long Island Ice Tea":"Absolut Vodka, Tequila Cazadores Reposado, Ron Bacardi Cartablanca, Gin, Triple Sec, Limón, Coca-Cola"
+                          "Long Island Ice Tea 💀":"Absolut Vodka, Tequila Cazadores Reposado, Ron Bacardi Cartablanca, Gin, Triple Sec, Limón, Coca-Cola"
                       },
                       {
                           "Bramble":"Gin, Chambord, Limón, Simple Syrup"
@@ -254,10 +250,10 @@ export default {
                           "Negroni Sour":"Gin Los Andes, Campari, Vermouth Di Torino, Limón, Clara de Huevo"
                       },
                       {
-                          "Tarzan":"Gin Los Andes, Campari, Jugo de Piña, Limón, Simple Syrup"
+                          "Tarzán":"Gin Los Andes, Campari, Jugo de Piña, Limón, Simple Syrup"
                       },
                       {
-                          "Martini de Salmon":"Gin Los Andes, Licor de Salmón, Vermouth dry, Aceitunas"
+                          "Martini de Salmón":"Gin Los Andes, Licor de Salmón, Vermouth dry, Aceitunas"
                       },
                       {
                           "Choconilla Mai Tai":"Ron Bacardi Cartablanca, Licor de Vainilla, Orgeat de Cacao, Limon"
