@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="476.344" height="439.75" viewBox="0 0 476.344 439.75">
+<svg xmlns="http://www.w3.org/2000/svg" width="470.651" height="439.75" viewBox="0 0 470.651 439.75">
   <g id="Grupo_6" data-name="Grupo 6" transform="translate(-33 -17.39)">
     <g id="Grupo_1" data-name="Grupo 1" transform="translate(-125.734 -141.707)">
       <path id="martini-glass-citrus-light" d="M245.019,145.214a63.92,63.92,0,0,1-19.91-3.177L213.2,156.956A81.706,81.706,0,1,0,171.845,45.379H192.89a63.529,63.529,0,1,1,52.129,99.835ZM9.047,72.607A8.95,8.95,0,0,0,.879,77.769a9.165,9.165,0,0,0,1.078,9.586L108.881,221v87.582H63.5a9.076,9.076,0,1,0,0,18.152h108.91a9.076,9.076,0,1,0,0-18.152H127.033V221L233.958,87.355a9.094,9.094,0,0,0-7.091-14.748ZM207.979,90.759,117.957,203.3,27.936,90.759Z" transform="translate(196.848 469.253) rotate(-68)" fill="none"/>
@@ -7,8 +7,8 @@
       <path id="F_X_-_Contorno-2" data-name="F    X - Contorno" d="M56.782-23.953H91.738L121.131,20.1l29.158-44.05h33.933L137.865,43.373l48.412,70.51h-34.8L120.223,66.207,88.1,113.883H53.847l49.273-70.538ZM85.828-12.905H77.8l38.763,56.3L75.041,102.836H82.22l38.13-56.586,37.1,56.586h7.842L124.458,43.364,163.2-12.905h-6.977L121.168,40.056Z" transform="translate(409.215 218.006)" fill="#fb8c00"/>
     </g>
     <g id="Grupo_5" data-name="Grupo 5" transform="translate(98.784 -131.059) rotate(22)">
-      <text id="B_" data-name="B " transform="translate(393.536 309.193)" fill="#f78c01" font-size="82" font-family="ALIENCYBERNETICS, ALIEN CYBERNETICS"><tspan x="0" y="0">B </tspan></text>
-      <text id="_R" data-name=" R" transform="translate(447.821 307.753)" fill="#f78c01" font-size="80" font-family="ALIENCYBERNETICS, ALIEN CYBERNETICS"><tspan x="0" y="0" xml:space="preserve"> R</tspan></text>
+      <path id="Trazado_3" data-name="Trazado 3" d="M20.5-35.875H30.75Q41-35.875,41-43.562T30.75-51.25H15.375v41H30.75Q41-10.25,41-17.937T30.75-25.625H20.5ZM30.75-61.5q20.5,0,20.5,17.938,0,8.368-4.444,12.813,4.444,4.444,4.444,12.813Q51.25,0,30.75,0H5.125V-61.5Z" transform="translate(393.536 309.193)" fill="#f78c01"/>
+      <path id="Trazado_4" data-name="Trazado 4" d="M46.25,10h-10V-60h25q20,0,20,17.5,0,8.164-4.336,12.5,4.336,4.336,4.336,12.5V0h-10V-17.5q0-7.5-10-7.5h-10V-35h10q10,0,10-7.5t-10-7.5h-15Z" transform="translate(447.821 307.753)" fill="#f78c01"/>
     </g>
   </g>
 </svg>
