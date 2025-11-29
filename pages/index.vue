@@ -165,19 +165,13 @@ export default {
       cocktails:{
                   "delacasa":[
                       {
-                          "Margarita de la Casa":"Tequila Cazadores Reposado, Agave, Triple Sec, Limón, Rim de Tajín, Top de espuma de Mezcal"
+                          "Tommys Margarita":"Tequila Cazadores Reposado, Agave, Triple Sec, Limón, Rim de Tajín"
                       },
                       {
-                          "Tepachito":"Tequila Cazadores Reposado, Mezcal 400 Conejos,Jugo de Piña, Limón, Ginger Syrup, Rim de Sal de Gusano"
+                          "Tepachito":"Tequila Cazadores Reposado, Mezcal 400 Conejos,Jugo de Piña, Limón, Ginger Syrup"
                       },
                       {
                           "Knickerbocker":"Ron Appleton, Triple Sec, Raspberry Syrup, Limón"
-                      },
-                      {
-                          "Picante de la Casa 🌶️":"Tequila Cazadores Reposado, Agave, Jalapeño, Cilantro, Limón"
-                      },
-                      {
-                          "Tropiscal":"Pisco añejo, Jugo de Piña, Jugo de Naranja, Red Punch, Cinnamon Syrup, Calvados"
                       },
                       {
                           "Oaxaca Old Fashioned":"Tequila Cazadores Reposado, Mezcal 400 Conejos, Agave, Angostura Bitters, Ahumado con Sherry"
@@ -190,23 +184,14 @@ export default {
                       },
                       {
                           "Long Cosmo":"Vodka, Triple Sec, Jugo de Arándano, Limón, Soda"
-                      },
-                      {
-                          "Chingon Fashioned":"Tequila, Jägermeister, Simple Syrup"
                       }
                   ],
                   "clasicos":[
-                      {
-                          "Martini":"Gin Los Andes, Pobre Vermouth, Aceitunas"
-                      },
                       {
                           "Old Fashioned":"Bulleit Bourbon, Azúcar, Bitter de Angostura, Peal de Naranja"
                       },
                       {
                           "Negroni":"Gin Los Andes, Campari, Vermouth Di Torino"
-                      },
-                      {
-                          "Ruso Blanco":"Vodka, Licor de Café chileno, Crema"
                       },
                       {
                           "Hurricane":"Ron Appleton, Ron Bacardi, Naranja, Maracuyá"
@@ -225,35 +210,20 @@ export default {
                       },
                       {
                           "El Diablo":"Tequila Cazadores Reposado, Cassis, Limón, Ginger Ale"
-                      },
-                      {
-                          "Pornstar Martini":"Stumbras Vodka,Licor de Vainilla, Maracuyá, Limón"
                       }
                   ],
                   "autor":[
                       {
-                          "El Rojito 🌶️":"Tequila Cazadores Reposado, Pomelo, Licor de Vainilla, Chambord, Raspberry Syrup, Jalapeño"
-                      },
-                      {
-                          "Chilean Sour":"Licor de Calafate, Pobre Vermouth Blanco, Limón, Clara de Huevo"
-                      },
-                      {
-                          "Aperol Punch":"Aperol, Espumante, Red Punch, Naranja, Simple Syrup"
-                      },
-                      {
                           "Carajillo Poblano 🌶️":"Ancho Reyes, Cafe Espresso, Simple Syrup"
                       },
                       {
-                          "Margarita Picante 🌶️":"Tequila Cazadores Reposado, Ancho Reyes Verde, Triple Sec, Limón, Agave"
+                          "Margarita Picante 🌶️":"Tequila Cazadores Reposado, Ancho Reyes, Triple Sec, Limón, Agave"
                       },
                       {
                           "Negroni Sour":"Gin Los Andes, Campari, Vermouth Di Torino, Limón, Clara de Huevo"
                       },
                       {
                           "Tarzán":"Gin Los Andes, Campari, Jugo de Piña, Limón, Simple Syrup"
-                      },
-                      {
-                          "Martini de Salmón":"Gin Los Andes, Licor de Salmón, Vermouth dry, Aceitunas"
                       },
                       {
                           "Choconilla Mai Tai":"Ron Bacardi Cartablanca, Licor de Vainilla, Orgeat de Cacao, Limon"
