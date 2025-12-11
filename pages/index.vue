@@ -171,7 +171,7 @@ export default {
                           "Tepachito":"Tequila Cazadores Reposado, Mezcal 400 Conejos,Jugo de Piña, Limón, Ginger Syrup"
                       },
                       {
-                          "Knickerbocker":"Ron Appleton, Triple Sec, Raspberry Syrup, Limón"
+                          "Knickerbocker":"Ron Angostura, Triple Sec, Raspberry Syrup, Limón"
                       },
                       {
                           "Oaxaca Old Fashioned":"Tequila Cazadores Reposado, Mezcal 400 Conejos, Agave, Angostura Bitters, Ahumado con Sherry"
@@ -183,18 +183,21 @@ export default {
                           "Batanga (A.K.A Charro Negro)":"Tequila Cazadores Reposado, Coca-Cola, Limón"
                       },
                       {
-                          "Long Cosmo":"Vodka, Triple Sec, Jugo de Arándano, Limón, Soda"
+                          "Tarzán":"Gin Pajarillo, Campari, Jugo de Piña, Limón, Simple Syrup"
+                      },
+                      {
+                          "Raspberry Mojito Bourbon":"Bourbon Wild Turkey, Menta, Limón, Raspberry Syrup, Soda"
                       }
                   ],
                   "clasicos":[
                       {
-                          "Old Fashioned":"Bulleit Bourbon, Azúcar, Bitter de Angostura, Peal de Naranja"
+                          "Old Fashioned":"Wild Turkey Bourbon, Azúcar, Bitter de Angostura, Peal de Naranja"
                       },
                       {
-                          "Negroni":"Gin Los Andes, Campari, Vermouth Di Torino"
+                          "Negroni":"Gin Pajarillo, Campari, Vermouth Di Torino"
                       },
                       {
-                          "Hurricane":"Ron Appleton, Ron Bacardi, Naranja, Maracuyá"
+                          "Hurricane":"Ron Angostura, Ron Bacardi, Naranja, Maracuyá"
                       },
                       {
                           "Long Island Ice Tea 💀":"Absolut Vodka, Tequila Cazadores Reposado, Ron Bacardi Cartablanca, Gin, Triple Sec, Limón, Coca-Cola"
@@ -203,16 +206,31 @@ export default {
                           "Bramble":"Gin, Chambord, Limón, Simple Syrup"
                       },
                       {
-                          "Espresso Martini":"Absolut Vodka, kahlúa, Shot de Cafe"
+                          "Espresso Martini":"Absolut Vodka, kahlúa, Simple Syrup, Shot de Cafe"
                       },
                       {
                           "Carajillo":"Licor 43, Cafe Espresso, Simple Syrup"
                       },
                       {
                           "El Diablo":"Tequila Cazadores Reposado, Cassis, Limón, Ginger Ale"
+                      },
+                      {
+                          "Tokyo Tea":"Gin, Vokda, Ron Bacardi Cartablanca, Tequila Cazadores Reposado, Midori, Limón, Sprite"
+                      },
+                      {
+                          "Clavo Oxidado":"Glenfiddich 12 años, Drambuie, Bitter de Angostura, Clavo de Olor"
+                      },
+                      {
+                          "Americano":"Campari, Vermouth Di Torino, Soda"
+                      },
+                      {
+                          "Tom Collins":"Gin Pajarillo, Limón, Simple Syrup, Soda"
                       }
                   ],
                   "autor":[
+                      {
+                          "Tropiscal":"Pisco añejo, Jugo de Manzana, Calvados, Jugo de Naranja, Jugo de Piña, Red Punch, Simple Syrup"
+                      },
                       {
                           "Carajillo Poblano 🌶️":"Ancho Reyes, Cafe Espresso, Simple Syrup"
                       },
@@ -220,13 +238,37 @@ export default {
                           "Margarita Picante 🌶️":"Tequila Cazadores Reposado, Ancho Reyes, Triple Sec, Limón, Agave"
                       },
                       {
-                          "Negroni Sour":"Gin Los Andes, Campari, Vermouth Di Torino, Limón, Clara de Huevo"
+                          "Negroni Sour":"Gin Pajarillo, Campari, Vermouth Di Torino, Limón, Aquafaba"
                       },
                       {
-                          "Tarzán":"Gin Los Andes, Campari, Jugo de Piña, Limón, Simple Syrup"
+                          "Midori Sour":"Midori, Simple Syrup, Limón, Aquafaba"
                       },
                       {
                           "Choconilla Mai Tai":"Ron Bacardi Cartablanca, Licor de Vainilla, Orgeat de Cacao, Limon"
+                      },
+                      {
+                          "Bose Austral":"Gin Tepaluma de Maqui, Vodka, Murta, Limón, Simple Syrup"
+                      },
+                      {
+                          "Prado":"Tequila Cazadores Blanco, Kirschwasser, Limon, Simple Syrup, Aquafaba"
+                      },
+                      {
+                          "Salmoncito":"Pomelo, Campari, Gin, Tónica"
+                      },
+                      {
+                          "Picante de la casa":"Tequila Cazadores Reposado, Agave, limón, Cilantro, Jalapeño"
+                      },
+                      {
+                          "Maple Rose":"Bourbon, Maple Rosemary Syrup, Limón, Vermouth Bianco"
+                      },
+                      {
+                          "Campanula Sour":"Vodka de Pomelo, Licor de Sauco, Limón, Pimenton"
+                      },
+                      {
+                          "Electrón":"Zanahoria, Mezcal, Cinnamon Syrup, Limón, Orange Bitters"
+                      },
+                      {
+                          "Aperol Blueberry Spritz":"Aperol, Espumante de Arandano, Soda, Red Punch"
                       }
                   ]
               }
