@@ -25,7 +25,7 @@ export default {
       { name: 'format-detection', content: 'email=no' },
 
       { hid: 'og:title', property: 'og:title', content: 'Fox Bar' },
-      { hid: 'og:image', property: 'og:image', content: '/logo.svg' },
+      { hid: 'og:image', property: 'og:image', content: 'https://menufox.netlify.app/logo.svg' },
       { hid: 'og:image:width', property: 'og:image:width', content: '630' },
       { hid: 'og:image:height', property: 'og:image:height', content: '630' },
     ],
