@@ -22,7 +22,12 @@ export default {
       { name: 'format-detection', content: 'address=no' },
 
       // Prevent auto-detecting emails (iOS)
-      { name: 'format-detection', content: 'email=no' }
+      { name: 'format-detection', content: 'email=no' },
+
+      { hid: 'og:title', property: 'og:title', content: 'Fox Bar' },
+      { hid: 'og:image', property: 'og:image', content: '/logo.svg' },
+      { hid: 'og:image:width', property: 'og:image:width', content: '630' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '630' },
     ],
     link: [
       { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
