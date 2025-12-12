@@ -244,9 +244,6 @@ export default {
                           "Midori Sour":"Midori, Simple Syrup, Limón, Aquafaba"
                       },
                       {
-                          "Choconilla Mai Tai":"Ron Bacardi Cartablanca, Licor de Vainilla, Orgeat de Cacao, Limon"
-                      },
-                      {
                           "Bose Austral":"Gin Tepaluma de Maqui, Vodka, Murta, Limón, Simple Syrup"
                       },
                       {
