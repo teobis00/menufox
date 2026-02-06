@@ -165,36 +165,30 @@ export default {
       cocktails:{
                   "delacasa":[
                       {
-                          "Tommys Margarita":"Tequila Cazadores Reposado, Agave, Triple Sec, Limón, Rim de Tajín"
-                      },
-                      {
-                          "Tepachito":"Tequila Cazadores Reposado, Mezcal 400 Conejos,Jugo de Piña, Limón, Ginger Syrup"
+                          "Tommys Margarita":"Tequila, Agave, Triple Sec, Limón, Rim de Tajín"
                       },
                       {
                           "Knickerbocker":"Ron Angostura, Triple Sec, Raspberry Syrup, Limón"
                       },
                       {
-                          "Oaxaca Old Fashioned":"Tequila Cazadores Reposado, Mezcal 400 Conejos, Agave, Angostura Bitters, Ahumado con Sherry"
+                          "Asta Collins":"Tequila, Jugo de Pomelo, Campari, Agave, Limón, Soda"
                       },
                       {
-                          "Asta Collins":"Tequila Cazadores Reposado, Jugo de Pomelo, Campari, Agave, Limón, Soda"
+                          "Batanga (A.K.A Charro Negro)":"Tequila, Coca-Cola, Limón"
                       },
                       {
-                          "Batanga (A.K.A Charro Negro)":"Tequila Cazadores Reposado, Coca-Cola, Limón"
+                          "Tarzán":"Gin Los Andes, Campari, Jugo de Piña, Limón, Simple Syrup"
                       },
                       {
-                          "Tarzán":"Gin Pajarillo, Campari, Jugo de Piña, Limón, Simple Syrup"
+                          "Cantarito":"Tequila, Jugo de Naranja, Jugo de Limón, Jugo de Pomelo, Limon Soda, Sal"
                       },
                       {
-                          "Raspberry Mojito Bourbon":"Bourbon Wild Turkey, Menta, Limón, Raspberry Syrup, Soda"
+                          "Sangria de la casa": "Sangria, Jugo de Mango, Canela, Soda de Granada"
                       }
                   ],
                   "clasicos":[
                       {
-                          "Old Fashioned":"Wild Turkey Bourbon, Azúcar, Bitter de Angostura, Peal de Naranja"
-                      },
-                      {
-                          "Negroni":"Gin Pajarillo, Campari, Vermouth Di Torino"
+                          "Negroni":"Gin Los Andes, Campari, Vermouth Di Torino"
                       },
                       {
                           "Hurricane":"Ron Angostura, Ron Bacardi, Naranja, Maracuyá"
@@ -203,19 +197,10 @@ export default {
                           "Long Island Ice Tea 💀":"Absolut Vodka, Tequila Cazadores Reposado, Ron Bacardi Cartablanca, Gin, Triple Sec, Limón, Coca-Cola"
                       },
                       {
-                          "Bramble":"Gin, Chambord, Limón, Simple Syrup"
+                          "Bramble":"Gin, Cassis, Limón, Simple Syrup"
                       },
                       {
-                          "Espresso Martini":"Absolut Vodka, kahlúa, Simple Syrup, Shot de Cafe"
-                      },
-                      {
-                          "Carajillo":"Licor 43, Cafe Espresso, Simple Syrup"
-                      },
-                      {
-                          "El Diablo":"Tequila Cazadores Reposado, Cassis, Limón, Ginger Ale"
-                      },
-                      {
-                          "Tokyo Tea":"Gin, Vokda, Ron Bacardi Cartablanca, Tequila Cazadores Reposado, Midori, Limón, Sprite"
+                          "El Diablo":"Tequila, Cassis, Limón, Ginger Ale"
                       },
                       {
                           "Clavo Oxidado":"Glenfiddich 12 años, Drambuie, Bitter de Angostura, Clavo de Olor"
@@ -224,7 +209,7 @@ export default {
                           "Americano":"Campari, Vermouth Di Torino, Soda"
                       },
                       {
-                          "Tom Collins":"Gin Pajarillo, Limón, Simple Syrup, Soda"
+                          "Tom Collins":"Gin Los Andes, Limón, Simple Syrup, Soda"
                       }
                   ],
                   "autor":[
@@ -235,34 +220,19 @@ export default {
                           "Carajillo Poblano 🌶️":"Ancho Reyes, Cafe Espresso, Simple Syrup"
                       },
                       {
-                          "Margarita Picante 🌶️":"Tequila Cazadores Reposado, Ancho Reyes, Triple Sec, Limón, Agave"
+                          "Margarita Picante 🌶️":"Tequila, Ancho Reyes, Triple Sec, Limón, Agave"
                       },
                       {
-                          "Negroni Sour":"Gin Pajarillo, Campari, Vermouth Di Torino, Limón, Aquafaba"
+                          "Negroni Sour":"Gin Los Andes, Campari, Vermouth Di Torino, Limón, Aquafaba"
                       },
                       {
-                          "Midori Sour":"Midori, Simple Syrup, Limón, Aquafaba"
-                      },
-                      {
-                          "Bose Austral":"Gin Tepaluma de Maqui, Vodka, Murta, Limón, Simple Syrup"
-                      },
-                      {
-                          "Prado":"Tequila Cazadores Blanco, Kirschwasser, Limon, Simple Syrup, Aquafaba"
+                          "Prado":"Tequila, Kirschwasser, Limon, Simple Syrup, Aquafaba"
                       },
                       {
                           "Salmoncito":"Pomelo, Campari, Gin, Tónica"
                       },
                       {
-                          "Picante de la casa":"Tequila Cazadores Reposado, Agave, limón, Cilantro, Jalapeño"
-                      },
-                      {
                           "Maple Rose":"Bourbon, Maple Rosemary Syrup, Limón, Vermouth Bianco"
-                      },
-                      {
-                          "Campanula Sour":"Vodka de Pomelo, Licor de Sauco, Limón, Pimenton"
-                      },
-                      {
-                          "Electrón":"Zanahoria, Mezcal, Cinnamon Syrup, Limón, Orange Bitters"
                       },
                       {
                           "Aperol Blueberry Spritz":"Aperol, Espumante de Arandano, Soda, Red Punch"
