@@ -183,7 +183,7 @@ export default {
                           "Cantarito":"Tequila, Jugo de Naranja, Jugo de Limón, Jugo de Pomelo, Limon Soda, Sal"
                       },
                       {
-                          "Sangria de la casa": "Sangria, Jugo de Mango, Canela, Soda de Granada"
+                          "Sangria de la casa": "Sangria, Jugo de Mango, Canela, Soda de Granada, Arandanos, Naranja, Manzana"
                       }
                   ],
                   "clasicos":[
@@ -203,18 +203,24 @@ export default {
                           "El Diablo":"Tequila, Cassis, Limón, Ginger Ale"
                       },
                       {
-                          "Clavo Oxidado":"Glenfiddich 12 años, Drambuie, Bitter de Angostura, Clavo de Olor"
+                          "Clavo Oxidado":"Blended Whisky, Drambuie, Bitter de Angostura, Clavo de Olor"
                       },
                       {
                           "Americano":"Campari, Vermouth Di Torino, Soda"
                       },
                       {
                           "Tom Collins":"Gin Los Andes, Limón, Simple Syrup, Soda"
-                      }
+                      },
+                      {
+                          "Gin con Gin":"Gin Los Andes, Ginger Ale, Limón"
+                      },
+                      {
+                          "Gin Tonic":"Gin Los Andes, Agua Tónica, Limón"
+                      },
                   ],
                   "autor":[
                       {
-                          "Mono en Pelotah":"Ron Caribeño, Ron blanco, Angostura Bitters, Licor de Banana,Cinnamon Syrup"
+                          "Mono en Pelotah":"Ron Angostura, Ron blanco, Angostura Bitters, Licor de Banana,Cinnamon Syrup"
                       },
                       {
                           "Tropiscal":"Pisco añejo, Jugo de Manzana, Calvados, Jugo de Naranja, Jugo de Piña, Red Punch, Simple Syrup"
