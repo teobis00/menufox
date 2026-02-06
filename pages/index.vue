@@ -194,7 +194,7 @@ export default {
                           "Hurricane":"Ron Angostura, Ron Bacardi, Naranja, Maracuyá"
                       },
                       {
-                          "Long Island Ice Tea 💀":"Absolut Vodka, Tequila Cazadores Reposado, Ron Bacardi Cartablanca, Gin, Triple Sec, Limón, Coca-Cola"
+                          "Long Island Ice Tea 💀":"Absolut Vodka, Tequila, Ron Blanco, Gin, Triple Sec, Limón, Coca-Cola"
                       },
                       {
                           "Bramble":"Gin, Cassis, Limón, Simple Syrup"
@@ -213,6 +213,9 @@ export default {
                       }
                   ],
                   "autor":[
+                      {
+                          "Mono en Pelotah":"Ron Caribeño, Ron blanco, Angostura Bitters, Licor de Banana,Cinnamon Syrup"
+                      },
                       {
                           "Tropiscal":"Pisco añejo, Jugo de Manzana, Calvados, Jugo de Naranja, Jugo de Piña, Red Punch, Simple Syrup"
                       },
