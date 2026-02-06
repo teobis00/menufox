@@ -226,10 +226,10 @@ export default {
                           "Margarita Picante 🌶️":"Tequila, Ancho Reyes, Triple Sec, Limón, Agave"
                       },
                       {
-                          "Negroni Sour":"Gin Los Andes, Campari, Vermouth Di Torino, Limón, Aquafaba"
+                          "Negroni Sour":"Gin Los Andes, Campari, Vermouth Di Torino, Limón, Clara de huevo"
                       },
                       {
-                          "Prado":"Tequila, Kirschwasser, Limon, Simple Syrup, Aquafaba"
+                          "Prado":"Tequila, Kirschwasser, Limon, Simple Syrup, Clara de huevo"
                       },
                       {
                           "Salmoncito":"Pomelo, Campari, Gin, Tónica"
