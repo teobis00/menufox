@@ -57,7 +57,7 @@ body, html {
       width: 100vw;
       box-sizing: border-box;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
       padding: 20px 20px;
       padding-top: 10px;
@@ -79,6 +79,7 @@ body, html {
         line-height: 19px;
         font-size: 16px;
         font-weight: 400;
+        margin-left: 20px;
 
         &.active{
           background-color: #EFB160;
@@ -140,7 +141,9 @@ body, html {
         <!---<span>{{ bgPosY }}</span>-->
         <button :class="{ active: current === 'delacasa' }" @click="setCurrent('delacasa')">De la casa</button>
         <button :class="{ active: current === 'clasicos' }" @click="setCurrent('clasicos')">Clásicos</button>
+      <!--
         <button :class="{ active: current === 'autor' }" @click="setCurrent('autor')">De Autor</button>
+      -->
       </div>
 
       <div ref="myScrollAux" class="aux-bg" :style="{ backgroundPositionX: currentLeft, backgroundPositionY: bgPosYaux }"></div>
@@ -163,61 +166,80 @@ export default {
       bgPosYaux: '10%',
       current: 'delacasa',
       cocktails:{
-                  "delacasa":[
-                      {
-                          "Tommys Margarita":"Tequila, Agave, Triple Sec, Limón, Rim de Tajín"
-                      },
-                      {
-                          "Knickerbocker":"Ron Angostura, Triple Sec, Raspberry Syrup, Limón"
-                      },
-                      {
-                          "Asta Collins":"Tequila, Jugo de Pomelo, Campari, Agave, Limón, Soda"
-                      },
-                      {
-                          "Batanga (A.K.A Charro Negro)":"Tequila, Coca-Cola, Limón"
-                      },
-                      {
-                          "Tarzán":"Gin Los Andes, Campari, Jugo de Piña, Limón, Simple Syrup"
-                      },
-                      {
-                          "Cantarito":"Tequila, Jugo de Naranja, Jugo de Limón, Jugo de Pomelo, Limon Soda, Sal"
-                      },
-                      {
-                          "Sangria de la casa": "Sangria, Jugo de Mango, Canela, Soda de Granada, Arandanos, Naranja, Manzana"
-                      }
-                  ],
-                  "clasicos":[
-                      {
-                          "Negroni":"Gin Los Andes, Campari, Vermouth Di Torino"
-                      },
-                      {
-                          "Hurricane":"Ron Angostura, Ron Bacardi, Naranja, Maracuyá"
-                      },
-                      {
-                          "Long Island Ice Tea 💀":"Absolut Vodka, Tequila, Ron Blanco, Gin, Triple Sec, Limón, Coca-Cola"
-                      },
-                      {
-                          "Bramble":"Gin, Cassis, Limón, Simple Syrup"
-                      },
-                      {
-                          "El Diablo":"Tequila, Cassis, Limón, Ginger Ale"
-                      },
-                      {
-                          "Clavo Oxidado":"Blended Whisky, Drambuie, Bitter de Angostura, Clavo de Olor"
-                      },
-                      {
-                          "Americano":"Campari, Vermouth Di Torino, Soda"
-                      },
-                      {
-                          "Tom Collins":"Gin Los Andes, Limón, Simple Syrup, Soda"
-                      },
-                      {
-                          "Gin con Gin":"Gin Los Andes, Ginger Ale, Limón"
-                      },
-                      {
-                          "Gin Tonic":"Gin Los Andes, Agua Tónica, Limón"
-                      },
-                  ],
+                  "delacasa": [
+    {
+      "Asta Collins": "Tequila, Jugo de Pomelo, Campari, Agave, Limón, Soda"
+    },
+    {
+      "Tarzán": "Gin, Campari, Jugo de Piña, Limón, Goma"
+    },
+    {
+      "Mono en Pelotah": "Ron Blanco, Amargo de Angostura, Licor de Banana, Jarabe de Canela"
+    },
+    {
+      "Margarita Picante 🌶️": "Tequila, Ancho Reyes, Triple Sec, Limón, Agave"
+    },
+    {
+      "Tiger's Claw": "Tequila, Licor de Café, Jugo de Piña, Limón, Jarabe de Canela, Amargo de Naranja"
+    },
+    {
+      "Chingon Fashonned": "Tequila, Jägermeister, Goma"
+    },
+    {
+      "Cocktail con Soju": "Soju, Ron Blanco, Goma, Amargo de Angostura, Agua de Rosas"
+    },
+    {
+      "Snap Out of It (Tepachito)": "Tequila Blanco, Jarabe de Jengibre, Limón, Jugo de Piña"
+    },
+    {
+      "Passion at the Disco 🚫🍸": "Maracuyá, Limón, Tónica"
+    }
+  ],
+  "clasicos": [
+    {
+      "Tommy's Margarita": "Tequila, Agave, Triple Sec, Limón, Borde de Tajín"
+    },
+    {
+      "Knickerbocker": "Ron Caribeño, Triple Sec, Jarabe de Frambuesa, Limón"
+    },
+    {
+      "Batanga (A.K.A. Charro Negro)": "Tequila, Coca-Cola, Limón"
+    },
+    {
+      "Negroni": "Gin, Campari, Vermouth di Torino"
+    },
+    {
+      "Huracán": "Ron Blanco, Ron Caribeño, Jugo de Naranja, Jarabe de Maracuyá"
+    },
+    {
+      "Long Island Iced Tea": "Vodka, Tequila, Ron Blanco, Gin, Triple Sec, Limón, Coca-Cola"
+    },
+    {
+      "Bramble": "Gin, Cassis, Limón, Goma"
+    },
+    {
+      "El Diablo": "Tequila, Cassis, Limón, Ginger Ale"
+    },
+    {
+      "Clavo Oxidado": "Blended Whisky, Drambuie, Amargo de Angostura, Clavo de Olor"
+    },
+    {
+      "Americano": "Campari, Vermouth di Torino, Soda"
+    },
+    {
+      "Tom Collins": "Gin, Limón, Goma, Soda"
+    },
+    {
+      "Gin con Gin": "Gin, Ginger Ale, Limón"
+    },
+    {
+      "Gin Tonic": "Gin, Agua Tónica, Limón"
+    },
+    {
+      "Carajillo": "Espresso, Goma, Licor 43, Licor de Café"
+    }
+  ]
+                  /*,
                   "autor":[
                       {
                           "Mono en Pelotah":"Ron Angostura, Ron blanco, Angostura Bitters, Licor de Banana,Cinnamon Syrup"
@@ -246,7 +268,7 @@ export default {
                       {
                           "Aperol Blueberry Spritz":"Aperol, Espumante de Arandano, Soda, Red Punch"
                       }
-                  ]
+                  ]*/
               }
     };
   },
@@ -258,8 +280,8 @@ export default {
       switch(this.current) {
         case 'delacasa':
           return '0%';
-        case 'clasicos':
-          return '50%';
+       // case 'clasicos':
+       //   return '50%';
         case 'autor':
           return '90%';
         default:
